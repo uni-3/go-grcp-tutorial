@@ -1,0 +1,11 @@
+tasks:
+  - name: install protoc
+    command: sudo apt install -y protobuf-compiler 
+
+gitConfig:
+  alias.st: status
+  alias.cm: commit
+   
+vscode:
+  extensions:
+    - golang.go
